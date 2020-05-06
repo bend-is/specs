@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][keepachangelog] and this project adheres to [Semantic Versioning][semver].
 
+## v3.26.1
+
+### Fixed
+
+- Fix description for a field with path `registration_actions.items[].attributes` in `./fields/default/fields_list.json`
+- Fix description for a field with path `registration_actions.items[].usage_allowed` in `./fields/default/fields_list.json`
+- Fix description for path `registration_actions.has_annulment` in `./reports/default/json-schema.json`
+- Fix description for path `ownership.history.items[].last_operation.code` in `./reports/default/json-schema.json`
+- Fix description for path `ownership.history.items[].last_operation.description` in `./reports/default/json-schema.json`
+- Fix description for path `tech_data.engine.standarts.emission.euro` in `./reports/default/json-schema.json`
+- Fix description for path `additional_info.vehicle.segment.euro.code` in `./reports/default/json-schema.json`
+- Fix description for path `additional_info.vehicle.segment.euro.description` in `./reports/default/json-schema.json`
+
 ## v3.26.0
 
 ### Added

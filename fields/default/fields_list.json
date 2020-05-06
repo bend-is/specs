@@ -930,7 +930,7 @@
     },
     {
         "path": "registration_actions.items[].attributes",
-        "description": "Вероятный признак рег. действия [LEASING, ANNULMENT, ...]",
+        "description": "Регистрационные действия: Вероятный признак рег. действия [LEASING, ANNULMENT, ...]",
         "types": [
             "array"
         ],
@@ -941,7 +941,7 @@
     },
     {
         "path": "registration_actions.items[].usage_allowed",
-        "description": "Вероятный признак, возможна ли эксплуатация ТС?",
+        "description": "Регистрационные действия: Вероятный признак, возможна ли эксплуатация ТС?",
         "types": [
             "boolean"
         ],
